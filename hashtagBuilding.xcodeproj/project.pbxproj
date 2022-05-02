@@ -13,6 +13,17 @@
 		1E42EA60281AFB480019C5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42EA5E281AFB480019C5C0 /* Main.storyboard */; };
 		1E42EA62281AFB4B0019C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E42EA61281AFB4B0019C5C0 /* Assets.xcassets */; };
 		1E42EA65281AFB4B0019C5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42EA63281AFB4B0019C5C0 /* LaunchScreen.storyboard */; };
+		1E42EA6F281ECD4A0019C5C0 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42EA6E281ECD4A0019C5C0 /* MainPageViewController.swift */; };
+		1E42EA71281EFA840019C5C0 /* ForStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42EA70281EFA840019C5C0 /* ForStudentsViewController.swift */; };
+		1E42EA73281EFAB20019C5C0 /* ForFoundersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42EA72281EFAB20019C5C0 /* ForFoundersViewController.swift */; };
+		1E42EA75281EFAC90019C5C0 /* ForMentorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42EA74281EFAC90019C5C0 /* ForMentorsViewController.swift */; };
+		1E42EA77281F09E20019C5C0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42EA76281F09E20019C5C0 /* AboutViewController.swift */; };
+		1EAB55AF281FCCD5005B5235 /* StudentFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB55AE281FCCD5005B5235 /* StudentFeatureViewController.swift */; };
+		1EAB55B128201E70005B5235 /* MentorFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB55B028201E70005B5235 /* MentorFeatureViewController.swift */; };
+		1EAB55B3282028F2005B5235 /* MentorApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB55B2282028F2005B5235 /* MentorApplicationViewController.swift */; };
+		1EAB55B928203C5E005B5235 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB55B828203C5E005B5235 /* TableViewController.swift */; };
+		1EC74843281FB53E0079FBA2 /* FounderFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC74842281FB53E0079FBA2 /* FounderFeatureViewController.swift */; };
+		1EC74845281FB56E0079FBA2 /* FounderApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC74844281FB56E0079FBA2 /* FounderApplicationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		1E42EA61281AFB4B0019C5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E42EA64281AFB4B0019C5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E42EA66281AFB4B0019C5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E42EA6E281ECD4A0019C5C0 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		1E42EA70281EFA840019C5C0 /* ForStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForStudentsViewController.swift; sourceTree = "<group>"; };
+		1E42EA72281EFAB20019C5C0 /* ForFoundersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForFoundersViewController.swift; sourceTree = "<group>"; };
+		1E42EA74281EFAC90019C5C0 /* ForMentorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForMentorsViewController.swift; sourceTree = "<group>"; };
+		1E42EA76281F09E20019C5C0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1EAB55AE281FCCD5005B5235 /* StudentFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentFeatureViewController.swift; sourceTree = "<group>"; };
+		1EAB55B028201E70005B5235 /* MentorFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorFeatureViewController.swift; sourceTree = "<group>"; };
+		1EAB55B2282028F2005B5235 /* MentorApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorApplicationViewController.swift; sourceTree = "<group>"; };
+		1EAB55B828203C5E005B5235 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1EC74842281FB53E0079FBA2 /* FounderFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FounderFeatureViewController.swift; sourceTree = "<group>"; };
+		1EC74844281FB56E0079FBA2 /* FounderApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FounderApplicationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,17 @@
 				1E42EA58281AFB480019C5C0 /* AppDelegate.swift */,
 				1E42EA5A281AFB480019C5C0 /* SceneDelegate.swift */,
 				1E42EA5C281AFB480019C5C0 /* ViewController.swift */,
+				1E42EA6E281ECD4A0019C5C0 /* MainPageViewController.swift */,
+				1E42EA70281EFA840019C5C0 /* ForStudentsViewController.swift */,
+				1EAB55B828203C5E005B5235 /* TableViewController.swift */,
+				1EAB55AE281FCCD5005B5235 /* StudentFeatureViewController.swift */,
+				1EAB55B028201E70005B5235 /* MentorFeatureViewController.swift */,
+				1E42EA72281EFAB20019C5C0 /* ForFoundersViewController.swift */,
+				1EC74842281FB53E0079FBA2 /* FounderFeatureViewController.swift */,
+				1E42EA74281EFAC90019C5C0 /* ForMentorsViewController.swift */,
+				1EC74844281FB56E0079FBA2 /* FounderApplicationViewController.swift */,
+				1EAB55B2282028F2005B5235 /* MentorApplicationViewController.swift */,
+				1E42EA76281F09E20019C5C0 /* AboutViewController.swift */,
 				1E42EA5E281AFB480019C5C0 /* Main.storyboard */,
 				1E42EA61281AFB4B0019C5C0 /* Assets.xcassets */,
 				1E42EA63281AFB4B0019C5C0 /* LaunchScreen.storyboard */,
@@ -138,9 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAB55B128201E70005B5235 /* MentorFeatureViewController.swift in Sources */,
+				1EAB55B928203C5E005B5235 /* TableViewController.swift in Sources */,
+				1E42EA73281EFAB20019C5C0 /* ForFoundersViewController.swift in Sources */,
+				1EC74843281FB53E0079FBA2 /* FounderFeatureViewController.swift in Sources */,
+				1E42EA6F281ECD4A0019C5C0 /* MainPageViewController.swift in Sources */,
 				1E42EA5D281AFB480019C5C0 /* ViewController.swift in Sources */,
 				1E42EA59281AFB480019C5C0 /* AppDelegate.swift in Sources */,
+				1E42EA75281EFAC90019C5C0 /* ForMentorsViewController.swift in Sources */,
+				1EAB55AF281FCCD5005B5235 /* StudentFeatureViewController.swift in Sources */,
+				1E42EA71281EFA840019C5C0 /* ForStudentsViewController.swift in Sources */,
+				1EC74845281FB56E0079FBA2 /* FounderApplicationViewController.swift in Sources */,
 				1E42EA5B281AFB480019C5C0 /* SceneDelegate.swift in Sources */,
+				1E42EA77281F09E20019C5C0 /* AboutViewController.swift in Sources */,
+				1EAB55B3282028F2005B5235 /* MentorApplicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
